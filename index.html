@@ -45,9 +45,7 @@
             <li><a href="#partners" class="hover:font-semibold duration-150">Partners</a></li>
             <li><a href="#certify" class="hover:font-semibold duration-150">Certify</a></li>
             <li><a href="#certificates" class="hover:font-semibold duration-150">Certificates</a></li>
-            <li><a href="#conferences" class="hover:font-semibold duration-150">Conferences</a></li>
             <li><a href="#cases" class="hover:font-semibold duration-150">Cases</a></li>
-            <li><a href="#gallery" class="hover:font-semibold duration-150">Gallery</a></li>
           </ul>
           <ul class="flex gap-5">
             <a href="https://www.facebook.com/share/19bQ3HYjQG" target="_blank" class="hover:scale-150 duration-200"><i class="bi bi-facebook"></i></a>
@@ -57,12 +55,13 @@
         </div>
       </nav>
       <!---------------------------------------- Header ---------------------------------------->
-      <header id="home" class="p-10 -mt-10 w-full container mx-auto flex flex-col-reverse lg:flex-row justify-center gap-5 lg:gap-0 overflow-hidden">
+      <header id="home" class="p-10 -mt-10 w-full relative container mx-auto flex flex-col-reverse lg:flex-row justify-center gap-5 lg:gap-0 overflow-hidden0">
+        <!------------------------- Info ------------------------->
         <div class="w-full lg:w-1/2 h-full flex flex-col justify-start items-start gap-5">
           <div class="flex flex-col">
             <h2 class="mt-10 w-fit text-xl font-medium relative text-blue-600 before:absolute before:start-0 before:translate-x-full0 before:top-1/2 before:min-h-0.5 before:rounded-full before:w-32 before:bg-blue-600"></h2>
-            <h1 class="text-4xl md:text-6xl lg:text-8xl font-semibold">Dr. Eslam Nubi</h1>
-            <p class="text-2xl md:text-4xl lg:text-6xl">Dentist (B.D.S)</p>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl 2xl:text-8xl font-semibold">Dr. Eslam Nubi</h1>
+            <p class="text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl">Dentist (B.D.S)</p>
           </div>
           <div class="w-full flex flex-col p-5 text-base lg:text-lg rounded-lg relative">
             <div class="absolute top-0 left-0 size-full">
@@ -85,9 +84,10 @@
           </div>
           <!-- <p class="text-2xl">With over ten years of experience in dentistry Dr Eslam Gamal has built a reputation for providing exceptional care with a focus on patient comfort and longterm oral health A graduate of AlRazai University Dr Eslam Gamal has since his early years honed his skills through a unique combination of continuing academic education and extensive practical experience He has earned three diplomas in advanced dental implants and has also completed courses in fixed and cosmetic prosthetics Global healthcare with three international licenses Dr Eslam Gamal is licensed to practice in three countries the Arab Republic of Egypt the United Arab Emirates and the Republic of Sudan reflecting the confidence of various healthcare institutions in his competence and high skill He is also accredited by the General Authority for Accreditation and Healthcare Supervision GAHAR a certification that adds significant credibility to his professional record and confirms his commitment</p> -->
         </div>
-        <div class="w-full lg:w-1/2 flex justify-center items-center">
+        <!------------------------- Img ------------------------->
+        <div class="w-full lg:w-1/2 relative flex justify-center items-center">
           <div class="w-full lg:scale-150 xl:scale-100 aspect-square flex justify-center items-center rounded-lg -z-1">
-            <img src="./media/dr7.jpg" alt="Logo" class="h-full scale-x-[-1] rounded-lg grayscale-contrast-100" />
+            <img src="./media/dr7.png" alt="Logo" class="h-full scale-x-[-1] rounded-lg grayscale-contrast-100" />
           </div>
         </div>
       </header>
@@ -216,25 +216,6 @@
           <!---------------------------------------------------------->
         </div>
       </section>
-      <!---------------------------------------- Conferences ---------------------------------------->
-      <section id="conferences" class="container scroll-mt-5 w-full p-10 flex flex-col items-center gap-5">
-        <div class="w-full flex justify-center items-center gap-5">
-          <span class="min-h-0.5 rounded-full w-full bg-blue-600"></span>
-          <h2 class="min-w-fit p-5 text-3xl font-medium uppercase relative text-blue-600">Conferences</h2>
-          <span class="min-h-0.5 rounded-full w-full bg-blue-600"></span>
-        </div>
-        <div id="card-group" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 my-6">
-          <!------------------------- Card 1 ------------------------->
-          <div class="w-full max-h-fit hover:shadow-lg duration-100 rounded-lg flex flex-col overflow-hidden">
-              <img class="w-full object-cover object-center" alt="Gallery-3" src="./media/Conf 1.jpg">
-          </div>
-          <!------------------------- Card 2 ------------------------->
-          <div class="w-full max-h-fit hover:shadow-lg duration-100 rounded-lg flex flex-col overflow-hidden">
-              <img class="w-full object-cover object-center" alt="Gallery-3" src="./media/Conf 2.jpg">
-          </div>
-          <!---------------------------------------------------------->
-        </div>
-      </section>
       <!---------------------------------------- Cases ---------------------------------------->
       <section id="cases" class="container scroll-mt-5 w-full p-10 flex flex-col items-center gap-5">
         <div class="w-full flex flex-col justify-center items-center">
@@ -326,32 +307,29 @@
           <!---------------------------------------------------------->
         </div>
       </section>
-      <!---------------------------------------- Gallery ---------------------------------------->
-      <section id="gallery" class="container scroll-mt-5 w-full p-10 flex flex-col items-center gap-5">
+      <!---------------------------------------- Cases - Animated ---------------------------------------->
+      <section id="cases-animated" class="container scroll-mt-5 w-full p-10 flex flex-col items-center gap-5">
         <div class="w-full flex justify-center items-center gap-5">
           <span class="min-h-0.5 rounded-full w-full bg-blue-600"></span>
-          <h2 class="min-w-fit p-5 text-3xl font-medium uppercase relative text-blue-600">Gallery</h2>
+          <h2 class="min-w-fit p-5 text-3xl font-medium uppercase relative text-blue-600">Animated Cases</h2>
           <span class="min-h-0.5 rounded-full w-full bg-blue-600"></span>
         </div>
         <div id="card-group" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 my-6">
           <!------------------------- Card 1 ------------------------->
           <div class="w-full max-h-fit hover:shadow-lg duration-100 rounded-lg flex flex-col overflow-hidden">
-              <video class="w-full object-cover object-center" alt="Gallery-1" controls>
-                <source src="./media/Gallery 1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+            <video class="w-full object-cover object-center" alt="Gallery-1" controls>
+              <source src="./media/Gallery 1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
           <!------------------------- Card 2 ------------------------->
           <div class="w-full max-h-fit hover:shadow-lg duration-100 rounded-lg flex flex-col overflow-hidden">
-              <video class="w-full object-cover object-center" alt="Gallery-2" controls>
-                <source src="./media/Gallery 2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+            <video class="w-full object-cover object-center" alt="Gallery-2" controls>
+              <source src="./media/Gallery 2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <!------------------------- Card 3 ------------------------->
-          <div class="w-full max-h-fit hover:shadow-lg duration-100 rounded-lg flex flex-col overflow-hidden">
-              <img class="w-full object-cover object-center" alt="Gallery-3" src="./media/Gallery 3.png">
-          </div>
+
           <!---------------------------------------------------------->
         </div>
       </section>
